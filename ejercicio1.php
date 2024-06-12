@@ -15,7 +15,7 @@ echo "Total a pagar sin descuento es: $total \n";
 //aplicamos descuento segun la cantidad de camisas 
 $descuento = ($cantidad >= 3) ? $total * 0.2 : $total * 0.1;
 
-//mostrar total a pagar sin descuento y con descuento
+//mostrar descuento y total a pagar con descuento
 $total2 = $total - $descuento;
 echo "Descuento aplicado: $descuento\n";
 echo "Total a pagar con descuento es: $total2 \n"; 
